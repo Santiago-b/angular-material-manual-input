@@ -45,6 +45,7 @@ import { OverlayModule } from '@angular/cdk/overlay';
 import { CommonModule } from '@angular/common';
 
 @NgModule({
+  imports: [CommonModule],
   exports: [
     A11yModule,
     ClipboardModule,
@@ -90,7 +91,6 @@ import { CommonModule } from '@angular/common';
     OverlayModule,
     PortalModule,
     ScrollingModule,
-    CommonModule,
   ],
 })
 export class DemoMaterialModule {}
