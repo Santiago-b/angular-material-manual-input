@@ -45,7 +45,7 @@ import { OverlayModule } from '@angular/cdk/overlay';
 import { CommonModule } from '@angular/common';
 
 @NgModule({
-  imports: [CommonModule],
+  imports: [CommonModule, MatGridListModule],
   exports: [
     A11yModule,
     ClipboardModule,
