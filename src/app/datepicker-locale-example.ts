@@ -3,7 +3,6 @@ import { DateAdapter } from '@angular/material/core';
 import 'moment/locale/ja';
 import 'moment/locale/fr';
 import { FormControl } from '@angular/forms';
-import { MatCalendar } from '@angular/material/datepicker/calendar';
 
 /** @title Datepicker with different locale */
 @Component({
